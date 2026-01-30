@@ -3,6 +3,10 @@
     margin: 0px;
     padding: 0px;
 }
+html, body {
+    overflow-x: hidden; /* بيمنع السكرول يمين وشمال نهائياً */
+    width: 100%;
+}
 :root{
     --color-highlight:linear-gradient(to right, #47B2B9, #70A97C);
     --color:#333745
@@ -437,5 +441,6 @@ color: #E0EDFF;
     .footer-download .photo img {
         width: 140px; 
     }
+
 
 }
